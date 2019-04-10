@@ -16,7 +16,7 @@ io.on('connection', socket => {
     });
 });
 
-mongoose.connect('mongodb+srv://gabriel:<881221>@cluster0-so3vd.mongodb.net/test?retryWrites=true', { useNewUrlParser: true })
+mongoose.connect('mongodb+srv://gabriel:881221@cluster0-so3vd.mongodb.net/test?retryWrites=true', { useNewUrlParser: true })
 
 app.use((req, res, next) => {
     req.io = io;
