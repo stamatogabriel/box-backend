@@ -1,4 +1,4 @@
-const File = require('../models/File');
+const File = require('../models/Files');
 const Box = require('../models/Box');
 
 class FileController {
